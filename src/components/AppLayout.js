@@ -5,12 +5,22 @@ const AppLayout = () => {
     <>
       <Link href="/">
         <a>
-          <h2>to A</h2>
+          <h2>Home</h2>
         </a>
       </Link>
-      <Link href="/calc">
+      <Link href="/Calc">
         <a>
-          <h2>to Calc</h2>
+          <h2>Calc</h2>
+        </a>
+      </Link>
+      <Link href="/Counter">
+        <a>
+          <h2>Counter</h2>
+        </a>
+      </Link>
+      <Link href="/Bmi">
+        <a>
+          <h2>Bmi</h2>
         </a>
       </Link>
     </>

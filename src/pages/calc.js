@@ -18,20 +18,15 @@ export default function Calc() {
         e.preventDefault()
         switch (opcode){
             case "+" :
-                setResult(Number(num1) + Number(num2))
-                break
+                return setResult(Number(num1) + Number(num2))
             case "-" :
-                setResult(Number(num1) - Number(num2))
-                break
+                return setResult(Number(num1) - Number(num2))
             case "*" :
-                setResult(Number(num1) * Number(num2))
-                break
+                return setResult(Number(num1) * Number(num2))
             case "/" :
-                setResult(Number(num1) / Number(num2))
-                break
+                return setResult(Number(num1) / Number(num2))
             case "%" :
-                setResult(Number(num1) % Number(num2))
-                break
+                return setResult(Number(num1) % Number(num2))
             default :
                 alert("히히히히")
         }
