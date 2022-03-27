@@ -23,6 +23,11 @@ const AppLayout = () => {
           <h2>Bmi</h2>
         </a>
       </Link>
+      <Link href="/Grade">
+        <a>
+          <h2>Grade</h2>
+        </a>
+      </Link>
     </>
   );
 };
